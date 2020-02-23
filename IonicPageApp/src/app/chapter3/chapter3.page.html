@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar class="tb">
+    <ion-title>Chapter 3 | The New Beginning</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+  <p> Ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <img src="src\assets\images\IMG_0575.jpg" alt="" />
+  <br>
+ <ion-row>
+   <ion-col>
+     <div class="ion-text-center">3</div>
+   </ion-col>
+ </ion-row>
+  <ion-button class="ion-float-left" id="btn1" color="secondary" size="small" [routerDirection]="'root'" [routerLink]="['/chapter2']">Back</ion-button>
+  <ion-button class="ion-float-right" id="btn2" color="primary" size="small" [routerDirection]="'root'" [routerLink]="['/home']">Home</ion-button>
+  <ion-row>
+      <ion-col class="cont">
+        <ion-button class="toc" id="btn3" color="tertiary" size="small" [routerDirection]="'root'" [routerLink]="['/toc']">TOC
+        </ion-button>
+      </ion-col>
+    </ion-row>
+</ion-content>
